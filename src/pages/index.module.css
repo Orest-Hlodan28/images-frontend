@@ -1,0 +1,14 @@
+.container {
+    min-height: 100vh;
+    background: #192123;
+}
+
+.container .container_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container .container_wrapper button {
+    margin-left: auto;
+}

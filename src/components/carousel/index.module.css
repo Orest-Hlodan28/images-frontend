@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .slide_wrapper {
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+}
+
+.container .container_slide {
+    border: 4px solid black;
+    width: max-content;
+    padding: 100px;
+    display: flex;
+}
+
+.container .container_slide .arrow_left {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.container .container_slide .arrow_right {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container .container_slide .slide {
+    display: none;
+    margin: 0 auto;
+    min-height: 600px;
+    min-width: 600px;
+}
+
+.container .container_slide .active {
+    display: block !important;
+}
